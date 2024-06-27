@@ -1,0 +1,48 @@
+.header{
+    margin-top: 75px;
+    padding-left: 120px;
+}
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.prod-line-oben {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50vh;
+    gap: 60px;
+    padding-top: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.prod-line-unten {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50vh;
+    gap: 60px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.custom-card-img {
+    width: 500px;
+    max-height: 250px;
+    object-fit:  cover;
+    border-radius: 5px;
+}
+
+@media (max-width: 2000px){
+    .produktions-zelle {
+        flex-direction: column;
+    }
+}
